@@ -147,7 +147,7 @@ const DEFAULT_KEEP_ALIVE_TIMEOUT = 5 * 60 * 1000;
 const standardDomainPattern =
 	/^https:\/\/\w{26}\.appsync\-api\.\w{2}(?:(?:\-\w{2,})+)\-\d\.amazonaws.com\/graphql$/i;
 
-const customDomainPath = '/realtime';
+const customDomainPath = '';
 
 type GraphqlAuthModes = keyof typeof GRAPHQL_AUTH_MODE;
 
